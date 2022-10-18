@@ -13,7 +13,7 @@ body {
   background-color: rgb(237, 80, 241, 0.3);
 }
 
-div.games {
+.games {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -21,21 +21,21 @@ div.games {
   width: 180px;
 }
 
-div.games:hover {
+.games:hover {
   border: 1px solid rgb(108, 21, 221);
 }
 
-div.games img {
+.games img {
   width: 100%;
   height: auto;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
 
-div.greviews {
+.greviews {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -43,11 +43,11 @@ div.greviews {
   width: 180px;
 }
 
-div.greviews:hover {
+.greviews:hover {
   border: 1px solid rgb(248, 5, 248);
 }
 
-div.greviews img {
+.greviews img {
   width: 100%;
   height: auto;
 }
@@ -56,4 +56,10 @@ div.greviews img {
   position: relative;
   width: 40%;
   height: 40%;
+}
+
+.sub {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 0);
 }
