@@ -1,15 +1,19 @@
 body {
   background-color: #ffeded;
   font-family: "Ubuntu";
+  color: #4e4e4e;
 }
 
 .Text1 {
   text-align: center;
-  padding: 2%;
+  margin: 2%;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding: 0.5%;
   background-color: rgb(237, 80, 241, 0.3);
 }
 
-div.gallery {
+div.games {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -17,11 +21,11 @@ div.gallery {
   width: 180px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+div.games:hover {
+  border: 1px solid rgb(108, 21, 221);
 }
 
-div.gallery img {
+div.games img {
   width: 100%;
   height: auto;
 }
@@ -29,4 +33,27 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+div.greviews {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  align-self: center;
+  width: 180px;
+}
+
+div.greviews:hover {
+  border: 1px solid rgb(248, 5, 248);
+}
+
+div.greviews img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 40%;
+  height: 40%;
 }
