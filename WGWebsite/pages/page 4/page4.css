@@ -1,13 +1,10 @@
 body {
-  background-image: linear-gradient(
-    to right,
-    rgb(228, 215, 156),
-    rgb(235, 115, 209)
-  );
+  background-color: #ffeded;
   font-family: "Ubuntu";
 }
 
 .Text1 {
   text-align: center;
   padding: 2%;
+  background-color: rgb(237, 80, 241, 0.3);
 }
