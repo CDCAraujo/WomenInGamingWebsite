@@ -1,11 +1,15 @@
 body {
   background-color: #ffeded;
   font-family: "Ubuntu";
+  color: #4e4e4e;
 }
 
 .Text1 {
   text-align: center;
-  padding: 2%;
+  margin: 2%;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding: 0.5%;
   background-color: rgb(237, 80, 241, 0.3);
 }
 
