@@ -8,3 +8,9 @@ body {
   text-align: center;
   padding: 2%;
 }
+
+#instapost ul li {
+  float: left;
+  margin-right: 1%;
+  list-style-type: none;
+}

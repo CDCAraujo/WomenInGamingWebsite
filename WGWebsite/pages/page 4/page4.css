@@ -4,16 +4,25 @@ body {
   color: #4e4e4e;
 }
 
-.Text1 {
+.text1 {
   text-align: center;
   margin: 2%;
   margin-right: 30%;
   margin-left: 30%;
   padding: 0.5%;
   background-color: rgb(237, 80, 241, 0.3);
+  font-size: 10px;
 }
 
-div.games {
+.text2 h2 {
+  font-size: 20px;
+}
+
+.text2 p {
+  font-size: 12px;
+}
+
+.games {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -21,21 +30,21 @@ div.games {
   width: 180px;
 }
 
-div.games:hover {
-  border: 1px solid rgb(108, 21, 221);
+.games:hover {
+  border: 2px solid rgb(252, 252, 252);
 }
 
-div.games img {
+.games img {
   width: 100%;
   height: auto;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
 }
 
-div.greviews {
+.greviews {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -43,11 +52,11 @@ div.greviews {
   width: 180px;
 }
 
-div.greviews:hover {
-  border: 1px solid rgb(248, 5, 248);
+.greviews:hover {
+  border: 2px solid rgb(252, 252, 252);
 }
 
-div.greviews img {
+.greviews img {
   width: 100%;
   height: auto;
 }
@@ -56,4 +65,10 @@ div.greviews img {
   position: relative;
   width: 40%;
   height: 40%;
+}
+
+.sub {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 0);
 }
