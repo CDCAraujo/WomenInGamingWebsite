@@ -9,6 +9,8 @@ body {
   padding: 2%;
 }
 
-.container {
-  margin: 10%;
+#instapost ul li {
+  float: left;
+  margin-right: 1%;
+  list-style-type: none;
 }
