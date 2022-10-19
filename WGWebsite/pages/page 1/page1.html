@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link href="./page1.css" rel="stylesheet" />
+    <script src="page1.js"></script>
     <title>Gaming Industry Statistics</title>
 </head>
 
@@ -47,10 +48,15 @@
     <div class="GamerDemographics">
         <h2>Overal Audience Demographics</h2>
         <p>An important thing to keep in mind, I would argue, is to know exactly <i>who</i> plays <i>what,</i> and to this end, I present you the following graph breaking down the demographics of the medium's audience (coloquialy, gamers), by both gender and genre.</p>
-        <figure>
-            <img src="/WGWebsite/globalImgs/projectstatistics2.png" alt="Gamer Gender Distribution by Genre" width="500">
-            <figcaption>Gamer gender distribution by genre. <a href="https://www.gamify.com/gamification-blog/not-all-games-are-created-equal-pt1" target="_blank">Source.</a></figcaption>
-        </figure>
+        
+        <button name="spoiler_button" id="spoiler_button" type="button">Show Graph</button>
+
+        <div id="spoiler_text" class="fadeout" >
+            <figure>
+                <img src="/WGWebsite/globalImgs/projectstatistics2.png" alt="Gamer Gender Distribution by Genre" width="500">
+                <figcaption>Gamer gender distribution by genre. <a href="https://www.gamify.com/gamification-blog/not-all-games-are-created-equal-pt1" target="_blank">Source.</a></figcaption>
+            </figure>
+        </div>
         <br>
         <p>It bears pointing out that most gamers play a variety of games across genres, and a high participation rate in the chart doesn’t necessarily mean that gamers (whether male or female) only play that particular genre.<br>The source itself goes into a <i>lot</i> more detail than what I'll present here, but should you have interest, by all means, it's a well structured and thought out post!</p>
     </div>
@@ -70,4 +76,22 @@
     <!--free space here. Possible Navbar or whatever-->>
 </footer>
 
+
+<script>var divToggleVis = document.getElementById('spoiler_text');
+    var button = document.getElementById('spoiler_button');
+    
+    button.onclick = function() {
+        if (divToggleVis.className === 'fadeout') {
+            divToggleVis.className = 'fadein';
+        } else {
+            divToggleVis.className = 'fadeout';
+        }
+    
+        if (button.innerHTML === 'Show Spoilers') {
+            button.innerHTML = 'Hide Spoilers';
+        } else {
+            button.innerHTML = 'Show Spoilers';
+        }
+    };
+</script>
 </html>
