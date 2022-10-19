@@ -20,55 +20,16 @@ body {
 
 .text2 p {
   font-size: 12px;
+  font-style: italic;
 }
 
-.games {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  align-self: center;
-  width: 180px;
-}
-
-.games:hover {
-  border: 2px solid rgb(252, 252, 252);
-}
-
-.games img {
-  width: 100%;
+.fade_hov {
+  background: #fff;
+  width: 20%;
   height: auto;
+  padding: 2px;
 }
 
-.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-.greviews {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  align-self: center;
-  width: 180px;
-}
-
-.greviews:hover {
-  border: 2px solid rgb(252, 252, 252);
-}
-
-.greviews img {
-  width: 100%;
-  height: auto;
-}
-
-.container {
-  position: relative;
-  width: 40%;
-  height: 40%;
-}
-
-.sub {
-  width: 100%;
-  height: auto;
-  background-color: rgb(255, 255, 0);
+.fade {
+  opacity: 0.5;
 }
