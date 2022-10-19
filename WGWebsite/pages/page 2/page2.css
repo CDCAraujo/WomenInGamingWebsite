@@ -1,0 +1,33 @@
+body {
+  background-color: #ffeded;
+  font-family: "Ubuntu";
+  color: #4e4e4e;
+}
+
+.Stats {
+  margin-right: 20%;
+  padding: 5%;
+}
+
+.Industry {
+  margin-left: 20%;
+  padding: 5%;
+}
+
+.Difficulties {
+  margin-right: 20%;
+  padding: 5%;
+}
+
+.imgR {
+  float: right;
+  width: 30%;
+  height: auto;
+}
+
+.imgL {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-right: 5%;
+}
