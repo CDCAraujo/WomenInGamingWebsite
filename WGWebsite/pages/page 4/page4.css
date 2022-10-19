@@ -4,6 +4,68 @@ body {
   color: #4e4e4e;
 }
 
+/*nav bar*/
+.navBar {
+  width: 96%;
+  padding: 1% 2% 2% 2%;
+  background-image: linear-gradient(to right, black, #f194c8);
+  height: 2px;
+  display: block;
+  position: relative;
+  top: 0;
+  transform: scale();
+}
+
+.navItem {
+  padding-right: 6%;
+  display: inline-block;
+  transform: scale();
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 130%;
+}
+
+.navItem:link {
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: #f194c8;
+}
+
+.searchBar {
+  width: fit-content;
+  display: inline-block;
+  transform: scale() !important;
+  font-family: "Ubuntu";
+  font-size: 20%;
+}
+
+.searchBar input {
+  font-family: "Ubuntu";
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 30px;
+  padding-left: 20px;
+}
+
+.searchBar button {
+  font-family: "Ubuntu";
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 3%;
+  display: inline-block;
+  position: relative;
+  top: -500%;
+  vertical-align: top;
+  padding-right: 2%;
+}
+
+/*section 1*/
+
 .text1 {
   text-align: center;
   margin: 2%;
