@@ -76,3 +76,29 @@ body {
   margin-right: 1%;
   list-style-type: none;
 }
+
+/*footer css*/
+
+.social_footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffeded;
+  height: 100px;
+  padding: 20px;
+
+}
+
+.social_footer a {
+  margin: 5px;
+  text-decoration: none!important;
+}
+
+.social-icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
