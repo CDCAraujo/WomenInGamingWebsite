@@ -8,9 +8,9 @@ button.onclick = function() {
         divToggleVis.className = 'fadeout';
     }
 
-    if (button.innerHTML === 'Show Spoilers') {
-        button.innerHTML = 'Hide Spoilers';
+    if (button.innerHTML === 'Show Graph') {
+        button.innerHTML = 'Hide Graph';
     } else {
-        button.innerHTML = 'Show Spoilers';
+        button.innerHTML = 'Show Graph';
     }
 };

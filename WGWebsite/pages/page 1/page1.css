@@ -23,15 +23,49 @@
   
 .fadein, .fadeout {
     height: 0;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-  
+    display: none;
     opacity: 0;  
 }
   
 .fadein {
     height: 100%;
+    display: block;
+    opacity: 1;
+   
+}
+
+#spoiler_button2 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 175px;
+    height: 55px;
+    margin: 0 10px;
+    color: white;
+    background: lightslategrey;
+    border-radius: 5px;
+    border: none;
+}
+  
+#spoiler_button2:hover {
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+#spoiler_button2:active {
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.fadein2, .fadeout2 {
+    height: 0;
+    display: none;
+    opacity: 0;  
+}
+  
+.fadein2 {
+    height: 100%;
+    display: block;
     opacity: 1;
    
 }

@@ -12,7 +12,8 @@
       rel="stylesheet"
     />
     <link href="./page1.css" rel="stylesheet" />
-    <script src="page1.js"></script>
+    <script src="./page1.js" defer></script>
+    <script src="./page1_2.js" defer></script>
     <title>Gaming Industry Statistics</title>
 </head>
 
@@ -64,10 +65,15 @@
     <div class="DeveloperDemographics">
         <h2>Overal Developer Demographics</h2>
         <p>That's a lot of stuff about the market's consumers, but that's not all the gaming industry is. The other important faced of it is it's developers, the ones coding (and unfortunately many times crunching) up the works of art and entertainment we all love, often times in spite of publisher meddling or corporate greed.</p>
-        <figure>
-            <img src="/WGWebsite/globalImgs/projectstatistics3.png" alt="Developer Gender Demographics">
-            <figcaption>Developer gender demographics. <a href="https://igda-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/07/31184838/IGDA-DSS-2021-COVID-Report_July-18-2021-1.pdf" target="_blank">Source.</a></figcaption>
-        </figure>
+        
+        <button name="spoiler_button2" id="spoiler_button2" type="button">Show Graph</button>
+        
+        <div id="spoiler_text2" class="fadeout2" >
+            <figure>
+                <img src="/WGWebsite/globalImgs/projectstatistics3.png" alt="Developer Gender Demographics">
+                <figcaption>Developer gender demographics. <a href="https://igda-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/07/31184838/IGDA-DSS-2021-COVID-Report_July-18-2021-1.pdf" target="_blank">Source.</a></figcaption>
+            </figure>
+        </div>
         <p>I believe it's worth noting that while I have scoured the web, I've had trouble finding data including the current year of 2022, and thus decided limit these stats to the previous year of 2021 due to the greater wealth of data to source and corroborate.</p>
     </div>
 </body>
@@ -77,21 +83,5 @@
 </footer>
 
 
-<script>var divToggleVis = document.getElementById('spoiler_text');
-    var button = document.getElementById('spoiler_button');
-    
-    button.onclick = function() {
-        if (divToggleVis.className === 'fadeout') {
-            divToggleVis.className = 'fadein';
-        } else {
-            divToggleVis.className = 'fadeout';
-        }
-    
-        if (button.innerHTML === 'Show Spoilers') {
-            button.innerHTML = 'Hide Spoilers';
-        } else {
-            button.innerHTML = 'Show Spoilers';
-        }
-    };
-</script>
+
 </html>
