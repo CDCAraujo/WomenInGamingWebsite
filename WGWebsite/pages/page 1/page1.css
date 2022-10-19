@@ -1,3 +1,5 @@
+/*spoiler button 1*/
+
 #spoiler_button {
     font-size: 20px;
     font-weight: bold;
@@ -45,7 +47,9 @@
     border-radius: 5px;
     border: none;
 }
-  
+
+/*spoiler button 2*/
+
 #spoiler_button2:hover {
     font-weight: bold;
     color: white;
@@ -68,4 +72,30 @@
     display: block;
     opacity: 1;
    
+}
+
+/*footer css*/
+
+.social_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 100px;
+    padding: 20px;
+
+}
+
+.social_footer a {
+    margin: 5px;
+    text-decoration: none!important;
+}
+
+.social-icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
