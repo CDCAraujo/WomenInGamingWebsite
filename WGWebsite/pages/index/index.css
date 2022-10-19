@@ -172,3 +172,206 @@ form {
   margin: 2%;
   clear: both;
 }
+
+/*spoiler button 1*/
+
+#spoiler_button {
+    font-size: 20px;
+    font-weight: bold;
+    width: 175px;
+    height: 55px;
+    margin: 0 10px;
+    color: white;
+    background: lightslategrey;
+    border-radius: 5px;
+    border: none;
+}
+  
+#spoiler_button:hover {
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+#spoiler_button:active {
+    font-weight: bold;
+    box-shadow: none;
+}
+  
+.fadein, .fadeout {
+    height: 0;
+    display: none;
+    opacity: 0;  
+}
+  
+.fadein {
+    height: 100%;
+    display: block;
+    opacity: 1;
+   
+}
+
+#spoiler_button2 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 175px;
+    height: 55px;
+    margin: 0 10px;
+    color: white;
+    background: lightslategrey;
+    border-radius: 5px;
+    border: none;
+}
+
+/*spoiler button 2*/
+
+#spoiler_button2:hover {
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+#spoiler_button2:active {
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.fadein2, .fadeout2 {
+    height: 0;
+    display: none;
+    opacity: 0;  
+}
+  
+.fadein2 {
+    height: 100%;
+    display: block;
+    opacity: 1;
+   
+}
+
+/*footer css*/
+
+.social_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 100px;
+    padding: 20px;
+
+}
+
+.social_footer a {
+    margin: 5px;
+    text-decoration: none!important;
+}
+
+.social-icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/*spoiler button 1*/
+
+#spoiler_button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 175px;
+  height: 55px;
+  margin: 0 10px;
+  color: white;
+  background: lightslategrey;
+  border-radius: 5px;
+  border: none;
+}
+
+#spoiler_button:hover {
+  font-weight: bold;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+
+#spoiler_button:active {
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.fadein, .fadeout {
+  height: 0;
+  display: none;
+  opacity: 0;  
+}
+
+.fadein {
+  height: 100%;
+  display: block;
+  opacity: 1;
+ 
+}
+
+/*spoiler button 2*/
+
+#spoiler_button2 {
+  font-size: 20px;
+  font-weight: bold;
+  width: 175px;
+  height: 55px;
+  margin: 0 10px;
+  color: white;
+  background: lightslategrey;
+  border-radius: 5px;
+  border: none;
+}
+
+#spoiler_button2:hover {
+  font-weight: bold;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+
+#spoiler_button2:active {
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.fadein2, .fadeout2 {
+  height: 0;
+  display: none;
+  opacity: 0;  
+}
+
+.fadein2 {
+  height: 100%;
+  display: block;
+  opacity: 1;
+ 
+}
+
+/*footer css*/
+
+.social_footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffeded;
+  height: 100px;
+  padding: 20px;
+
+}
+
+.social_footer a {
+  margin: 5px;
+  text-decoration: none!important;
+}
+
+.social-icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
