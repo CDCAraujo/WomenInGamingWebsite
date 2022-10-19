@@ -101,15 +101,15 @@ body {
 .social_footer {
   display: flex;
   justify-content: center;
-  background-color: #ffeded;
+  background-color: #ffffff;
   height: 100px;
   padding: 20px;
-
+  clear: both;
 }
 
 .social_footer a {
   margin: 5px;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 .social-icon {

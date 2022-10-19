@@ -2,6 +2,11 @@ body {
   background-color: #ffeded;
   font-family: "Ubuntu";
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 /*nav bar*/
 .navBar {
   width: 96%;
@@ -61,38 +66,20 @@ body {
   vertical-align: top;
   padding-right: 2%;
 }
+/*header*/
 
 /*section 1*/
-
-#BG1 {
-  width: 60%;
-  height: auto;
-  margin-left: 20%;
-  margin-right: 50%;
-}
-
 .containerp {
+  background-image: url(/WGWebsite/globalImgs/main.jpg);
+  background-size: cover;
   position: relative;
-  padding-right: 60%;
-  padding: 2%;
+  padding: 400px;
   width: fit-content;
-  color: #4e4e4e;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  color: white;
   background-color: aqua;
   margin-bottom: 2%;
 }
 
-.container {
-  color: #4e4e4e;
-  font-size: 15px;
-  border-style: solid;
-  border-width: 2px;
-  background-color: rgb(224, 49, 224);
-  clear: both;
-}
 .text {
   text-align: center;
 }
@@ -106,6 +93,15 @@ body {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   background-color: aquamarine;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 2%;
+}
+
+#stats {
+  float: left;
+  margin-bottom: 2%;
+  margin-top: 0.5%;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -163,7 +159,12 @@ body {
 #sub {
   color: #4e4e4e;
   font-size: 15px;
-  background-color: rgb(224, 49, 224);
+  clear: both;
+}
+
+.container {
+  color: #4e4e4e;
+  font-size: 15px;
   clear: both;
 }
 
@@ -176,104 +177,105 @@ form {
 /*spoiler button 1*/
 
 #spoiler_button {
-    font-size: 20px;
-    font-weight: bold;
-    width: 175px;
-    height: 55px;
-    margin: 0 10px;
-    color: white;
-    background: lightslategrey;
-    border-radius: 5px;
-    border: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 175px;
+  height: 55px;
+  margin: 0 10px;
+  color: white;
+  background: lightslategrey;
+  border-radius: 5px;
+  border: none;
 }
-  
+
 #spoiler_button:hover {
-    font-weight: bold;
-    color: white;
-    box-shadow: 5px 5px 5px black;
+  font-weight: bold;
+  color: white;
+  box-shadow: 5px 5px 5px black;
 }
 
 #spoiler_button:active {
-    font-weight: bold;
-    box-shadow: none;
+  font-weight: bold;
+  box-shadow: none;
 }
-  
-.fadein, .fadeout {
-    height: 0;
-    display: none;
-    opacity: 0;  
+
+.fadein,
+.fadeout {
+  height: 0;
+  display: none;
+  opacity: 0;
 }
-  
+
 .fadein {
-    height: 100%;
-    display: block;
-    opacity: 1;
-   
+  height: 100%;
+  display: block;
+  opacity: 1;
 }
 
 #spoiler_button2 {
-    font-size: 20px;
-    font-weight: bold;
-    width: 175px;
-    height: 55px;
-    margin: 0 10px;
-    color: white;
-    background: lightslategrey;
-    border-radius: 5px;
-    border: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 175px;
+  height: 55px;
+  margin: 0 10px;
+  color: white;
+  background: lightslategrey;
+  border-radius: 5px;
+  border: none;
 }
 
 /*spoiler button 2*/
 
 #spoiler_button2:hover {
-    font-weight: bold;
-    color: white;
-    box-shadow: 5px 5px 5px black;
+  font-weight: bold;
+  color: white;
+  box-shadow: 5px 5px 5px black;
 }
 
 #spoiler_button2:active {
-    font-weight: bold;
-    box-shadow: none;
+  font-weight: bold;
+  box-shadow: none;
 }
 
-.fadein2, .fadeout2 {
-    height: 0;
-    display: none;
-    opacity: 0;  
+.fadein2,
+.fadeout2 {
+  height: 0;
+  display: none;
+  opacity: 0;
 }
-  
+
 .fadein2 {
-    height: 100%;
-    display: block;
-    opacity: 1;
-   
+  height: 100%;
+  display: block;
+  opacity: 1;
 }
 
 /*footer css*/
 
 .social_footer {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    height: 100px;
-    padding: 20px;
-
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 100px;
+  padding: 20px;
+  clear: both;
 }
 
 .social_footer a {
-    margin: 5px;
-    text-decoration: none!important;
+  margin: 5px;
+  text-decoration: none !important;
 }
 
 .social-icon {
-    display: flex;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
+
 /*spoiler button 1*/
 
 #spoiler_button {
@@ -299,17 +301,17 @@ form {
   box-shadow: none;
 }
 
-.fadein, .fadeout {
+.fadein,
+.fadeout {
   height: 0;
   display: none;
-  opacity: 0;  
+  opacity: 0;
 }
 
 .fadein {
   height: 100%;
   display: block;
   opacity: 1;
- 
 }
 
 /*spoiler button 2*/
@@ -337,17 +339,17 @@ form {
   box-shadow: none;
 }
 
-.fadein2, .fadeout2 {
+.fadein2,
+.fadeout2 {
   height: 0;
   display: none;
-  opacity: 0;  
+  opacity: 0;
 }
 
 .fadein2 {
   height: 100%;
   display: block;
   opacity: 1;
- 
 }
 
 /*footer css*/
@@ -358,12 +360,11 @@ form {
   background-color: #ffeded;
   height: 100px;
   padding: 20px;
-
 }
 
 .social_footer a {
   margin: 5px;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 .social-icon {
