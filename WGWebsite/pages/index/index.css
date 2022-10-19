@@ -16,22 +16,24 @@ body {
   padding: 2%;
   width: fit-content;
   color: #4e4e4e;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: aqua;
+  margin-bottom: 2%;
 }
 
-.text {
-  text-align: center;
-}
 .container {
   color: #4e4e4e;
   font-size: 15px;
   border-style: solid;
   border-width: 2px;
-  width: 2000px;
+  background-color: rgb(224, 49, 224);
+  clear: both;
 }
-
-form {
-  float: left;
-  margin: 2%;
+.text {
+  text-align: center;
 }
 
 /* section 2 */
@@ -43,6 +45,8 @@ form {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   background-color: aquamarine;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .statsimg {
@@ -55,3 +59,57 @@ form {
 .addtext {
   padding: 2%;
 }
+
+.info2 {
+  display: inline-block;
+  clear: both;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(136, 245, 132);
+  margin: 2%;
+}
+
+.indimg {
+  width: 30%;
+  height: auto;
+  float: right;
+  padding: 2%;
+}
+
+.info3 {
+  display: inline-block;
+  clear: both;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(236, 217, 45);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.difimg {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 2%;
+}
+
+/* section 3 */
+
+.sub {
+  color: #4e4e4e;
+  font-size: 15px;
+  background-color: rgb(224, 49, 224);
+  clear: both;
+}
+
+form {
+  float: left;
+  margin: 2%;
+  clear: both;
+}
+
+/*footer*/
