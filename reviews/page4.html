@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="./page4.css" rel="stylesheet" />
+        <title>WG Website</title>
+    </head>
+    <body>
+        <div class="text1">
+            <h1>SHARE YOUR EXPERIENCES WITH THE COMMUNITY</h1>
+        </div>
+        <div class="text2">
+            <h2>Rate your Experience!</h2>
+            <p>Rate your experiences in different games, to help others!</p>
+        </div>
+
+        <!--Review-->
+        <div class="reviewForm">
+            <form class="form" method="post" novalidate>
+                <label>Name/Gamertag</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name/gamertag.." />
+                <label for="gameName">Game Name:</label>
+                <select id="gameName" name="gameName">
+                    <option value="valorant">Valorant</option>
+                    <option value="dbd">Dead By Daylight</option>
+                    <option value="stardew">Stardew Valley</option>
+                </select>
+
+                <div class="community">
+                    <label>Community:</label>
+
+                    <div class="communityRating">
+                        <input type="radio" name="communityRating" value="5" id="5" /><label for="5">☆</label>
+                        <input type="radio" name="communityRating" value="4" id="4" /><label for="4">☆</label>
+                        <input type="radio" name="communityRating" value="3" id="3" /><label for="3">☆</label>
+                        <input type="radio" name="communityRating" value="2" id="2" /><label for="2">☆</label>
+                        <input type="radio" name="communityRating" value="1" id="1" /><label for="1">☆</label>
+                    </div>
+                </div>
+
+                <div class="charDesign">
+                    <label>Character Design(in terms of misogyny, stereotypes, etc.):</label>
+
+                    <div class="charDesignRating">
+                        <input type="radio" name="charDesignRating" value="5" id="5" /><label for="5">☆</label>
+                        <input type="radio" name="charDesignRating" value="4" id="4" /><label for="4">☆</label>
+                        <input type="radio" name="charDesignRating" value="3" id="3" /><label for="3">☆</label>
+                        <input type="radio" name="charDesignRating" value="2" id="2" /><label for="2">☆</label>
+                        <input type="radio" name="charDesignRating" value="1" id="1" /><label for="1">☆</label>
+                    </div>
+                </div>
+
+                <div class="treatment">
+                    <label>Playerbase Attitudes Towards/Treatment of Women:</label>
+
+                    <div class="treatmentRating">
+                        <input type="radio" name="treatmentRating" value="5" id="5" /><label for="5">☆</label>
+                        <input type="radio" name="treatmentRating" value="4" id="4" /><label for="4">☆</label>
+                        <input type="radio" name="treatmentRating" value="3" id="3" /><label for="3">☆</label>
+                        <input type="radio" name="treatmentRating" value="2" id="2" /><label for="2">☆</label>
+                        <input type="radio" name="treatmentRating" value="1" id="1" /><label for="1">☆</label>
+                    </div>
+                </div>
+
+                <div class="representation">
+                    <label>Representation:</label>
+
+                    <div class="repRating">
+                        <input type="radio" name="repRating" value="5" id="5" /><label for="5">☆</label>
+                        <input type="radio" name="repRating" value="4" id="4" /><label for="4">☆</label>
+                        <input type="radio" name="repRating" value="3" id="3" /><label for="3">☆</label>
+                        <input type="radio" name="repRating" value="2" id="2" /><label for="2">☆</label>
+                        <input type="radio" name="repRating" value="1" id="1" /><label for="1">☆</label>
+                    </div>
+                </div>
+
+                <div class="overall">
+                    <label>Overall Rating:</label>
+
+                    <div class="overallRating">
+                        <input type="radio" name="overallRating" value="5" id="5" /><label for="5">☆</label>
+                        <input type="radio" name="overallRating" value="4" id="4" /><label for="4">☆</label>
+                        <input type="radio" name="overallRating" value="3" id="3" /><label for="3">☆</label>
+                        <input type="radio" name="overallRating" value="2" id="2" /><label for="2">☆</label>
+                        <input type="radio" name="overallRating" value="1" id="1" /><label for="1">☆</label>
+                    </div>
+
+                    
+                  </div>
+                  <label>Other Comments: </label>
+                  <input type="text" />
+                  
+                  <input type="submit" value="Submit" />
+            </form>
+        </div>
+
+        <div class="mostSearched">
+            <h3>Most Searched Games Right Now:</h3>
+        </div>
+
+        <div class="mainGrid">
+            <!--Valorant-->
+            <div class="valorant">
+                <div class="gameBox">
+                    <h3>Valorant</h3>
+                    <img src="../../globalImgs/valorant.jpg" class="fade_hov" />
+                    <div class="infoGrid">
+                        <h4>Type of Game:</h4>
+                        <p>First-Person Tactical Hero Shooter, Online Multiplayer</p>
+                        <h4>Number of Players:</h4>
+                        <p>5 per Team</p>
+                        <h4>Release Date:</h4>
+                        <p>June 2, 2020</p>
+                        <h4>Platforms:</h4>
+                        <p>Microsoft Windows</p>
+                    </div>
+
+                    <div class="reviewGrid">
+                        <h4>Community:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+
+                        <h4>Character Design(in terms of misogyny, stereotypes, etc.):</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h4>Playerbase Attitudes Towards/Treatment of Women:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h4>Representation:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h3>Overall Rating:</h3>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                    </div>
+
+                    <div class="commentContainer">
+                        <div class="commentSlide commentSlideOne">
+                            <q
+                                ><a href="https://pokemonwe.com/valorant-review/"> Striking a balance</a> between
+                                Overwatch—where accuracy feels secondary to a well-timed ult—and Counter-Strikes purist
+                                weapon jousting</q
+                            >
+                            <p class="author">- Pokemonwe</p>
+                        </div>
+
+                        <div class="commentSlide commentSlideOne">
+                            <q>
+                                <a href="https://www.pcgamer.com/valorant-review/">
+                                    It's wild how quickly Valorant has captured the collective consciousness of FPS
+                                    fans.</a
+                                >
+                                Riot's competitive shooter is just barely out of beta, yet it already stands toe-to-toe
+                                with the biggest games in its genre.</q
+                            >
+                            <p class="author">- Morgan Park</p>
+                        </div>
+
+                        <div class="commentSlide commentSlideOne">
+                            <q>
+                                Valorant is the
+                                <a href="https://www.ign.com/articles/valorant-review"> most fun I've had </a> with a
+                                multiplayer FPS since Valve's Team Fortress 2.</q
+                            >
+                            <p class="author">- Kyle Campbell</p>
+                        </div>
+                    </div>
+
+                    <div class="dot-container">
+                        <span class="dot dotsOne" onclick='currentSlide("commentSlideOne", "dotsOne", 1)'></span>
+                        <span class="dot dotsOne" onclick='currentSlide("commentSlideOne", "dotsOne", 2)'></span>
+                        <span class="dot dotsOne" onclick='currentSlide("commentSlideOne", "dotsOne", 3)'></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Dead By Daylight -->
+            <div class="dbd">
+                <div class="gameBox">
+                    <h3>Dead By Daylight</h3>
+                    <img src="../../globalImgs/dbd.jpg" class="fade_hov" />
+                    <div class="infoGrid">
+                        <h4>Type of Game:</h4>
+                        <p>Asymmetric Online Multiplayer, Horror, Survival</p>
+                        <h4>Number of Players:</h4>
+                        <p>4 (Survivor Team), 1 (Killer Team)</p>
+                        <h4>Release Date:</h4>
+                        <p>June 14, 2016</p>
+                        <h4>Platforms:</h4>
+                        <p>
+                            Microsoft Windows
+                            <br />
+                            PlayStation 4
+                            <br />
+                            Xbox One
+                            <br />
+                            Nintendo Switch
+                            <br />
+                            Android
+                            <br />
+                            iOS
+                            <br />
+                            Stadia
+                            <br />
+                            PlayStation 5
+                            <br />
+                            Xbox Series X|S
+                            <br />
+                        </p>
+                    </div>
+
+                    <div class="reviewGrid">
+                        <h4>Community:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+
+                        <h4>Character Design(in terms of misogyny, stereotypes, etc.):</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h4>Playerbase Attitudes Towards/Treatment of Women:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h4>Representation:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h3>Overall Rating:</h3>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                    </div>
+
+                    <div class="commentContainer">
+                        <div class="commentSlide commentSlideTwo">
+                            <q
+                                >Dead by Daylight's
+                                <a href="https://www.ign.com/articles/dead-by-daylight-review">
+                                    inventive concept for a competitive horror game </a
+                                >strikes an incredible balance between two very different styles of play, and makes both
+                                compelling.
+                            </q>
+                            <p class="author">- Mike Epstein</p>
+                        </div>
+
+                        <div class="commentSlide commentSlideTwo">
+                            <q
+                                >Dead by Daylight has evolved into an
+                                <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/">
+                                    unrivalled asymmetrical competitive multiplayer game,</a
+                                >
+                                and one of the best horror games around.</q
+                            >
+                            <p class="author">- Gamespot</p>
+                        </div>
+
+                        <div class="commentSlide commentSlideTwo">
+                            <q>
+                                Five years later, Dead by Daylight features the most
+                                <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/">
+                                    interesting cat-and-mouse multiplayer
+                                </a>
+                                you can play.
+                            </q>
+                            <p class="author">- PC Gamer</p>
+                        </div>
+                    </div>
+
+                    <div class="dot-container">
+                        <span class="dot dotsTwo" onclick='currentSlide("commentSlideTwo", "dotsTwo", 1)'></span>
+                        <span class="dot dotsTwo" onclick='currentSlide("commentSlideTwo", "dotsTwo", 2)'></span>
+                        <span class="dot dotsTwo" onclick='currentSlide("commentSlideTwo", "dotsTwo", 3)'></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Dead By Daylight -->
+            <div class="stardew">
+                <div class="gameBox">
+                    <h3>Stardew Valley</h3>
+                    <img src="../../globalImgs/stardew.jpg" class="fade_hov" />
+                    <div class="infoGrid">
+                        <h4>Type of Game:</h4>
+                        <p>Simulation, Role-Playing</p>
+                        <h4>Number of Players:</h4>
+                        <p>Up to Four</p>
+                        <h4>Release Date:</h4>
+                        <p>February 2016</p>
+                        <h4>Platforms:</h4>
+                        <p>
+                            Microsoft Windows
+                            <br />
+                            macOS
+                            <br />
+                            Linux
+                            <br />
+                            PlayStation 4
+                            <br />
+                            Xbox One
+                            <br />
+                            Nintendo Switch
+                            <br />
+                            PlayStation Vita
+                            <br />
+                            iOS
+                            <br />
+                            Android
+                            <br />
+                        </p>
+                    </div>
+
+                    <div class="reviewGrid">
+                        <h4>Community:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+
+                        <h4>Character Design(in terms of misogyny, stereotypes, etc.):</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h4>Playerbase Attitudes Towards/Treatment of Women:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h4>Representation:</h4>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                        <h3>Overall Rating:</h3>
+                        <div class="rating">
+                            <input type="radio" name="rating" value="5" id="5" /><label for="5">☆</label>
+                            <input type="radio" name="rating" value="4" id="4" /><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3" /><label for="3">☆</label>
+                            <input type="radio" name="rating" value="2" id="2" /><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1" /><label for="1">☆</label>
+                        </div>
+                    </div>
+
+                    <div class="commentContainer">
+                        <div class="commentSlide commentSlideThree">
+                            <q
+                                >I'd definitely say it's
+                                <a href="https://www.imore.com/stardew-valley-review">
+                                    one of the best games available on the Nintendo Switch now.</a
+                                >
+                            </q>
+                            <p class="author">- Nadine Dornieden</p>
+                        </div>
+
+                        <div class="commentSlide commentSlideThree">
+                            <q
+                                >Stardew Valley is a
+                                <a href="https://www.ign.com/articles/2018/08/07/stardew-valley-review-2018">
+                                    beautiful, fun game
+                                </a>
+                                that, when all of its parts are pulled together, make for a wonderful countryside
+                                adventure.
+                            </q>
+                            <p class="author">- Miranda Sanchez</p>
+                        </div>
+
+                        <div class="commentSlide commentSlideThree">
+                            <q>
+                                Stardew Valley has been the most
+                                <a href="https://store.steampowered.com/app/413150/Stardew_Valley/">
+                                    rich and heartwarming experience Ive had in a game in years.</a
+                                >
+                            </q>
+                            <p class="author">- CGMagazine</p>
+                        </div>
+                    </div>
+
+                    <div class="dot-container">
+                        <span class="dot dotsThree" onclick='currentSlide("commentSlideThree", "dotsThree", 1)'></span>
+                        <span class="dot dotsThree" onclick='currentSlide("commentSlideThree", "dotsThree", 2)'></span>
+                        <span class="dot dotsThree" onclick='currentSlide("commentSlideThree", "dotsThree", 3)'></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="allGames">
+            <h3><a href="/WGWebsite/pages/page 5/page5.html"> ALL GAMES A-Z:</a></h3>
+        </div>
+
+        <script src="./page4.js" defer></script>
+    </body>
+    <!--  <footer>
+      <p>follow us in our social channels.</p>
+  </footer> -->
+</html>
