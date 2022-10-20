@@ -1,15 +1,22 @@
 body {
-    font-family: "Ubuntu";
-    color: #4e4e4e;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(/imgs/hello.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url(./imgs/streaming.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /*navbar*/
+.container {
+  width: 100%;
+  height: 6vh;
+  padding: 0 8%;
+  position: relative;
+}
 
 nav {
   display: flex;
@@ -63,212 +70,209 @@ nav ul li a:hover::after {
 }
 
 .text1 {
-    text-align: center;
-    margin: 2%;
-    margin-right: 30%;
-    margin-left: 30%;
-    padding: 0.5%;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    color: #fff;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    text-align: center;
-    position: relative;
+  text-align: center;
+  margin: 2%;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding: 0.5%;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  position: relative;
 }
 
 .text2 h2 {
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 .text2 p {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
 }
 
 .mostSearched h3 {
-    text-align: center;
+  text-align: center;
 }
 
-
 .mainGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto 10%;
-    column-gap: 2%;
-    height: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto 10%;
+  column-gap: 2%;
+  height: 50%;
 }
 
 .gameBox {
-    display: grid;
-    grid-template-columns: 1fr;
-    border: solid 5px #fff;
-    box-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: solid 5px #fff;
+  box-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 .gameBox::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 /* Track */
 .gameBox::-webkit-scrollbar-track {
-    background: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  background: 1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
 /* Handle */
 .gameBox::-webkit-scrollbar-thumb {
-    background: #ccc;
+  background: #ccc;
 }
 
 /* Handle on hover */
 .gameBox::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
 
 .infoGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: left;
-    margin: 0px 5% 0px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  margin: 0px 5% 0px 10%;
 }
 
 .gameBox h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .gameBox img {
-    display: block;
-    margin: 0 auto;
-    height: 20vh;
-    width: 10vw;
+  display: block;
+  margin: 0 auto;
+  height: 20vh;
+  width: 10vw;
 }
 
 .dbd {
-    height: 75vh;
+  height: 75vh;
 }
 
 .valorant {
-    height: 75vh;
+  height: 75vh;
 }
 
 .stardew {
-    height: 75vh;
+  height: 75vh;
 }
 
 .reviewGrid {
-    margin-left: 7%;
+  margin-left: 7%;
 }
 
 .overall label {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 .reviewForm {
-    text-align: center;
-    line-height: 3vh;
-    margin: 1vh 0vh 5vh 0vh;
+  text-align: center;
+  line-height: 3vh;
+  margin: 1vh 0vh 5vh 0vh;
 }
 
 /*quote styling*/
 /* Slideshow container */
 .commentContainer {
-    position: relative;
-    color: #fff;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
-    font-size: 19px;
-    height: min-content;
+  position: relative;
+  color: #fff;
+  font-size: 19px;
+  height: min-content;
 }
 
 .commentContainer a {
-    color: inherit;
+  color: inherit;
 }
 
 .commentContainer a:hover {
-    color: rgb(134, 110, 124);
-    text-shadow: 1px 1px 10px rgb(134, 110, 124), 1px 1px 10px rgb(134, 110, 124);
+  color: rgb(231, 175, 208);
+  text-shadow: 1px 1px 10px rgb(134, 110, 124), 1px 1px 10px rgb(134, 110, 124);
 }
 
 .commentContainer a::after {
-    color: #fff;
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  color: #fff;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
 /* Slides */
 .commentSlide {
-    display: none;
-    padding: 80px;
-    text-align: center;
-    height: 10vh;
+  display: none;
+  padding: 80px;
+  text-align: center;
+  height: 10vh;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 /* The dot/bullet/indicator container */
 .dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 /* Add a background color to the active dot/circle */
 .active,
 .dot:hover {
-    background-color: #717171;
+  background-color: #717171;
 }
 
 /* Add an italic font style to all quotes */
 q {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Add a blue color to the author */
 .author {
-    color: #4e4e4e;;
+  color: #4e4e4e;
 }
 
 
@@ -277,244 +281,311 @@ q {
 /* community rating star styling*/
 
 .communityRating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .communityRating > input {
-    display: none;
+  display: none;
 }
 
 .communityRating > label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2vw;
-    color: #ffd700;
-    cursor: pointer;
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
 }
 
 .communityRating > label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
 }
 
 .communityRating > label:hover:before,
 .communityRating > label:hover ~ label:before {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .communityRating > input:checked ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .communityRating:hover > input:checked ~ label:before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 /* char design star styling */
 .charDesignRating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .charDesignRating > input {
-    display: none;
+  display: none;
 }
 
 .charDesignRating > label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2vw;
-    color: #ffd700;
-    cursor: pointer;
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
 }
 
 .charDesignRating > label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
 }
 
 .charDesignRating > label:hover:before,
 .charDesignRating > label:hover ~ label:before {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .charDesignRating > input:checked ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .charDesignRating:hover > input:checked ~ label:before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 /* treatment star styling */
 .treatmentRating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .treatmentRating > input {
-    display: none;
+  display: none;
 }
 
 .treatmentRating > label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2vw;
-    color: #ffd700;
-    cursor: pointer;
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
 }
 
 .treatmentRating > label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
 }
 
 .treatmentRating > label:hover:before,
 .treatmentRating > label:hover ~ label:before {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .treatmentRating > input:checked ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .treatmentRating:hover > input:checked ~ label:before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 /* rep star styling */
 .repRating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .repRating > input {
-    display: none;
+  display: none;
 }
 
 .repRating > label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2vw;
-    color: #ffd700;
-    cursor: pointer;
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
 }
 
 .repRating > label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
 }
 
 .repRating > label:hover:before,
 .repRating > label:hover ~ label:before {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .repRating > input:checked ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .repRating:hover > input:checked ~ label:before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 /* overall star styling */
 .overallRating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .overallRating > input {
-    display: none;
+  display: none;
 }
 
 .overallRating > label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2vw;
-    color: #ffd700;
-    cursor: pointer;
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
 }
 
 .overallRating > label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
 }
 
 .overallRating > label:hover:before,
 .overallRating > label:hover ~ label:before {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .overallRating > input:checked ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .overallRating:hover > input:checked ~ label:before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 /* star styling general*/
 
 .rating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .rating > input {
-    display: none;
+  display: none;
 }
 
 .rating > label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2vw;
-    color: #ffd700;
-    cursor: pointer;
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
 }
 
 .rating > label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
 }
 
 .rating > label:hover:before,
 .rating > label:hover ~ label:before {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .rating > input:checked ~ label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .rating:hover > input:checked ~ label:before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 .allGames {
-    margin: 10vh 25vw;
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-    box-shadow: 1px 10px #fff, 1px 1px 10px #ccc;
+  margin: 10vh 25vw;
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  box-shadow: 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
 .allGames a {
-    color: rgb(121, 121, 121);
-    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  color: rgb(121, 121, 121);
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+/*footer*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
 }
 
 
