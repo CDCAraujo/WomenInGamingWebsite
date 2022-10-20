@@ -7,7 +7,7 @@
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.63), transparent),
-    url(/imgs/gaming2.jpg);
+    url(../imgs/gaming2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
