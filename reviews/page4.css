@@ -97,6 +97,8 @@ nav ul li a:hover::after {
 
 .mostSearched h3 {
   text-align: center;
+  margin-bottom: 5vh;
+  font-size: x-large;
 }
 
 .mainGrid {
