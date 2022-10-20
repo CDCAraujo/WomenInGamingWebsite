@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
-    url(/imgs/streaming.jpg);
+    url(./imgs/streaming.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
