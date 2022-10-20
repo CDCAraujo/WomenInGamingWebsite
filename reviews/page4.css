@@ -271,6 +271,9 @@ q {
     color: #4e4e4e;;
 }
 
+
+
+
 /* community rating star styling*/
 
 .communityRating {
@@ -463,6 +466,7 @@ q {
 }
 
 /* star styling general*/
+
 .rating {
     display: flex;
     flex-direction: row-reverse;
@@ -511,4 +515,587 @@ q {
 .allGames a {
     color: rgb(121, 121, 121);
     text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+
+
+
+/*val star styling */
+.valComRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.valComRating > input {
+  display: none;
+}
+
+.valComRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.valComRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.valComRating > label:hover:before,
+.valComRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.valComRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.valComRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+
+.valCharDesRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.valCharDesRating > input {
+  display: none;
+}
+
+.valCharDesRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.valCharDesRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.valCharDesRating > label:hover:before,
+.valCharDesRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.valCharDesRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.valCharDesRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+.valPlayRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.valPlayRating > input {
+  display: none;
+}
+
+.valPlayRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.valPlayRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.valPlayRating > label:hover:before,
+.valPlayRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.valPlayRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.valPlayRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+.valRepRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.valRepRating > input {
+  display: none;
+}
+
+.valRepRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.valRepRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.valRepRating > label:hover:before,
+.valRepRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.valRepRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.valRepRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+.valOverRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.valOverRating > input {
+  display: none;
+}
+
+.valOverRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.valOverRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.valOverRating > label:hover:before,
+.valOverRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.valOverRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.valOverRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+.dbdComRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.dbdComRating > input {
+  display: none;
+}
+
+.dbdComRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.dbdComRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.dbdComRating > label:hover:before,
+.dbdComRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.dbdComRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.dbdComRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+.dbdCharDesRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.dbdCharDesRating > input {
+  display: none;
+}
+
+.dbdCharDesRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.dbdCharDesRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.dbdCharDesRating > label:hover:before,
+.dbdCharDesRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.dbdCharDesRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.dbdCharDesRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+.dbdPlayRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.dbdPlayRating > input {
+  display: none;
+}
+
+.dbdPlayRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.dbdPlayRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.dbdPlayRating > label:hover:before,
+.dbdPlayRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.dbdPlayRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.dbdPlayRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+.dbdRepRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.dbdRepRating > input {
+  display: none;
+}
+
+.dbdRepRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.dbdRepRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.dbdRepRating > label:hover:before,
+.dbdRepRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.dbdRepRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.dbdRepRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+.dbdOverRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.dbdOverRating > input {
+  display: none;
+}
+
+.dbdOverRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.dbdOverRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.dbdOverRating > label:hover:before,
+.dbdOverRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.dbdOverRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.dbdOverRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+.starComRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.starComRating > input {
+  display: none;
+}
+
+.starComRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.starComRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.starComRating > label:hover:before,
+.starComRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.starComRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.starComRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+.starCharDesRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.starCharDesRating > input {
+  display: none;
+}
+
+.starCharDesRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.starCharDesRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.starCharDesRating > label:hover:before,
+.starCharDesRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.starCharDesRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.starCharDesRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+.starPlayRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.starPlayRating > input {
+  display: none;
+}
+
+.starPlayRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.starPlayRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.starPlayRating > label:hover:before,
+.starPlayRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.starPlayRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.starPlayRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+
+
+.starRepRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.starRepRating > input {
+  display: none;
+}
+
+.starRepRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.starRepRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.starRepRating > label:hover:before,
+.starRepRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.starRepRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.starRepRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+
+.starOverRating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.starOverRating > input {
+  display: none;
+}
+
+.starOverRating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 2vw;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.starOverRating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.starOverRating > label:hover:before,
+.starOverRating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.starOverRating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.starOverRating:hover > input:checked ~ label:before {
+  opacity: 0.4;
 }
