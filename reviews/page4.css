@@ -184,8 +184,8 @@ nav ul li a:hover::after {
 .commentContainer {
   position: relative;
   color: #fff;
-  font-size: 19px;
-  height: min-content;
+  font-size: 18px;
+  height: 25vh;
 }
 
 .commentContainer a {
