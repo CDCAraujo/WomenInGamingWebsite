@@ -96,9 +96,6 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.fade {
-    opacity: 0.5;
-}
 
 .mainGrid {
     display: grid;
