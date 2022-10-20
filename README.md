@@ -1,2 +1,2 @@
 # WomenInGamingWebsite
-Group project
+Group project for Team 2
