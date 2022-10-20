@@ -191,7 +191,7 @@ nav ul li a:hover::after {
     user-select: none;
   }
   
-  /* Position the "next button" to the right */
+  /* Position the "next button" to the right. */
   .next {
     position: absolute;
     right: 0;
