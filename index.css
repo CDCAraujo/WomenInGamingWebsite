@@ -79,7 +79,7 @@ nav ul li a:hover::after {
   margin-left: -10px;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
-  background: url(/imgs/back.png);
+  background: url(./imgs/back.png);
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
